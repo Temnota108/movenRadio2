@@ -142,7 +142,7 @@ public class RadioTest {
     public void increaseVolumeMax() {
         Radio radio = new Radio();
 
-        radio.setCurrentVolume(10);
+        radio.setCurrentVolume(11);
 
         radio.increaseVolume();
 
