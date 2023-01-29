@@ -29,7 +29,6 @@ public class Radio {
         if (currentStation < 0) {
             currentStation = 0;
         }
-
         this.currentStation = currentStation;
     }
 
