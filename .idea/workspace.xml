@@ -43,7 +43,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.increaseVolumeMax">
+  <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movenRadio2" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,8 +65,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
         <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
       </list>
     </recent_temporary>
   </component>
