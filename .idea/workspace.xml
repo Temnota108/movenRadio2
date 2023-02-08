@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fccb3a42-c165-4f6d-8994-127b15f3efcf" name="Changes" comment="allTest2">
+    <list default="true" id="fccb3a42-c165-4f6d-8994-127b15f3efcf" name="Changes" comment="allTest4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.decreaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movenRadio2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="decreaseVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.increaseVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movenRadio2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="increaseVolume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RadioTest.increaseVolumeMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="movenRadio2" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,9 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.nextStation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="movenRadio2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadioTest" />
+      <option name="METHOD_NAME" value="nextStation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.decreaseVolume" />
+        <item itemvalue="JUnit.RadioTest.nextStation" />
+        <item itemvalue="JUnit.RadioTest.increaseVolume" />
         <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
       </list>
     </recent_temporary>
@@ -86,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675001148279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="allTest4">
+      <created>1675004320071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675004320071</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,9 +143,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="allTest2" />
-    <option name="LAST_COMMIT_MESSAGE" value="allTest2" />
+    <MESSAGE value="allTest4" />
+    <option name="LAST_COMMIT_MESSAGE" value="allTest4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/movenRadio2$RadioTest_increaseVolumeMax.ic" NAME="RadioTest.increaseVolumeMax Coverage Results" MODIFIED="1675608816773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/movenRadio2$RadioTest.ic" NAME="RadioTest Coverage Results" MODIFIED="1674997904725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
